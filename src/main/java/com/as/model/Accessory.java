@@ -17,7 +17,7 @@ public class Accessory {
     @Id
     private String reference;
     private String brand;
-    private String material;
+    private String category;
     private String description;
     private boolean availability = true;
     private double price;

@@ -42,8 +42,8 @@ public class AccesoryService {
                     accesoryDb.get().setBrand(accesory.getBrand());
                 }
 
-                if (accesory.getMaterial() != null) {
-                    accesoryDb.get().setMaterial(accesory.getMaterial());
+                if (accesory.getCategory() != null) {
+                    accesoryDb.get().setCategory(accesory.getCategory());
                 }
 
                 if (accesory.getDescription() != null) {
